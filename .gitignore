@@ -1,0 +1,26 @@
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+android/.kotlin/
+*.iml
+*.hprof
+
+# 构建产物
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# 本地测量结果（含个人网络时延特征，不入库）
+cf-ip-result.csv
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
